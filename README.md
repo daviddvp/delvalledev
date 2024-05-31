@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+# Astro Boilerplate with TypeScript and Tailwind CSS [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Astro Boilerplate is starter code for your blog or portfolio based on Astro
+with Tailwind CSS 3.0. ⚡️ Made with Astro, TypeScript, ESLint, Prettier,
+Tailwind CSS.
 
-## Available Scripts
+Clone this project and use it to create your own Astro blog. You can check the
+[Astro templates demo](https://creativedesignsguru.com/demo/astro-boilerplate/).
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+A complete Blog feature:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎈 Syntax Highlighting
+- 🤖 SEO friendly with sitemap.xml and robots.txt
+- ⚙️ RSS feed
+- 📖 Pagination
+- 🌈 Include a dark blog theme
+- ⬇️ Markdown
+- 📦 Image lazy loading
+- 💎 Responsive design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Developer experience first:
 
-### `npm test`
+- 🔥 Astro
+- 🎨 Tailwind CSS with aspect ratio and typography plugin
+- 🎉 TypeScript
+- ✏️ ESLint compatible with .astro files
+- 🛠 Prettier compatible with .astro files
+- 🦊 Husky
+- 🚫 lint-staged
+- 🚨 Commitlint
+- 🔧 One-click deploy on Netlify (or, manual if you prefer)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ESLint with:
 
-### `npm run build`
+- Airbnb styled guide
+- TypeScript compatible
+- Astro compatible
+- Automatically remove unused imports
+- Import sorting
+- Tailwind CSS plugin
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Philosophy
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Minimal code
+- SEO-friendly
+- 🚀 Production-ready
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Requirements
 
-### `npm run eject`
+- Node.js and npm
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Optional
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [nvm](https://github.com/nvm-sh/nvm)
+- [volta](https://volta.sh/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+While Astro-boilerplate should work with the latest Node version, it has been
+tested with the versions in .nvmrc & the bottom of package.json. At current
+writing, that's Node v16.15.1
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Getting started
 
-## Learn More
+Run the following command on your local environment:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+``` bash
+cd my-project-name
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Then, you can run locally in development mode with live reload:
 
-### Code Splitting
+``` bash
+npm run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Open [http://localhost:3000](http://localhost:3000) with your favorite browser
+to see your project.
 
-### Analyzing the Bundle Size
+### Deploy to production (manual)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You can create an optimized production build with:
 
-### Making a Progressive Web App
+```shell
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Now, your blog is ready to be deployed. All generated files are located at
+`dist` folder, which you can deploy the folder to any hosting service you
+prefer.
 
-### Advanced Configuration
+<!-- ### Deploy to Netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Clone this repository on own GitHub account and deploy to Netlify:
 
-### Deployment
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Astro-boilerplate) -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🧞 Commands
 
-### `npm run build` fails to minify
+All commands are run from the root of the project, from a terminal:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Command           | Action                                       |
+|:----------------  |:-------------------------------------------- |
+| `npm install`     | Installs dependencies                        |
+| `npm run dev`     | Starts local dev server at `localhost:3000`  |
+| `npm run build`   | Build your production site to `./dist/`      |
+| `npm run preview` | Preview your build locally, before deploying |
+| `npm run clean`   | Remove `./dist` folder                       |
+| `npm run lint`    | Run ESLint and report styling error          |
+
+### Contributions
+
+Everyone is welcome to contribute to this project.
+Feel free to open an issue if you have question or found a bug.
+
+### Additional Checks
+Change FooterCopyrigth => 
+    /home/daviddvp/Descargas/Beta/Prueba/node_modules/astro-boilerplate-components/dist/esm/index.js
+This README.md was linted with
+[markdownlint](https://github.com/igorshubovych/markdownlint-cli)
+
+### License
+
+Licensed under the MIT License, Copyright © 2022
