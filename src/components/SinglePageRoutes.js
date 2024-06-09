@@ -1,6 +1,6 @@
 import Home from "./home/Home";
 import About from "./about/About";
-import Portfolio from "./portfolio/Portfolio";
+import Portfolio from "./Portfolio/Portfolio";
 import React from 'react';
 import { Box } from "@mui/material";
 

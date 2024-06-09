@@ -82,7 +82,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm David. I'm a DevSecOps for UST.I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm David, a DevSecOps professional at UST. I have a passion for solving complex problems and a strong interest in the latest technological innovations. I am confident that my skills and experience will be a valuable addition to your team. Contact me to discuss how I can contribute to your project!",
     skills:
         {
             proficientWith: ['aws', 'linux', 'git', 'github', 'jira', 'kubernetes', 'docker', 'tenable'],
@@ -96,11 +96,11 @@ export const info = {
         },
         {
             label: 'gym',
-            emoji: '. + tecla windows'
+            emoji: '🏋️'
         },
         {
-            label: 'harleys',
-            emoji: '🎥'
+            label: 'motorbikes',
+            emoji: '🏍️'
         },
         {
             label: 'cooking',

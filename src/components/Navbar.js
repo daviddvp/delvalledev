@@ -11,7 +11,7 @@ const links = [
     {
         name: 'Home',
         to: '',
-        active: 'home'
+        active: 'Home'
     },
     {
         name: 'About Me',
@@ -22,10 +22,10 @@ const links = [
         name: info.initials,
         type: 'initials',
         to: '',
-        active: 'home'
+        active: 'Home'
     },
     {
-        name: 'Portfolio',
+        name: 'Curriculum',
         to: 'portfolio',
         active: 'portfolio'
     }
