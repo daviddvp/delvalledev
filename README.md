@@ -1,24 +1,24 @@
-# React Portfolio, multiple pages with dark mode
+# React Portfolio, multiple pages with dark mode  OK
 
-## a portfolio for developers
+## a portfolio for developers  OK
 
-![screenshot](https://user-images.githubusercontent.com/18350557/176953627-cd79fe83-0b84-4082-b79e-cc88da28f2e1.png)
+![screenshot](https://user-images.githubusercontent.com/18350557/176953627-cd79fe83-0b84-4082-b79e-cc88da28f2e1.png)  OK
+ 
+[View Live Template](https://reactportfoliotemplate.paytonpierce.dev/)  OK
 
-[View Live Template](https://reactportfoliotemplate.paytonpierce.dev/)
+## features  OK
 
-## features
+🌑 Dark Mode Toggler  OK
 
-🌑 Dark Mode Toggler
+📖 Multiple Pages (React Router) OK
 
-📖 Multiple Pages (React Router)
+📱 Fully Responsive OK
 
-📱 Fully Responsive
+🎨 Modern Design  OK
 
-🎨 Modern Design
+💡 Perfect Lighthouse Score OK
 
-💡 Perfect Lighthouse Score
-
-![screenshot of perfect lighthouse score](https://user-images.githubusercontent.com/18350557/179609620-847374a6-23e6-4432-b7a8-181d7d9bf026.png)
+![screenshot of perfect lighthouse score](https://user-images.githubusercontent.com/18350557/179609620-847374a6-23e6-4432-b7a8-181d7d9bf026.png)  OK
 
 
 ---
@@ -27,16 +27,16 @@
 
 ### prerequisites
 
-- have [Git](https://git-scm.com/) installed on your machine
-- have [Node.js](https://nodejs.org/en/download/) installed on your machine
-- basic familiarity with your machine's command line
-- basic understanding of JSON data outline (arrays of objects basically)
+- have [Git](https://git-scm.com/) installed on your machine  OK
+- have [Node.js](https://nodejs.org/en/download/) installed on your machine  OK
+- basic familiarity with your machine's command line  OK
+- basic understanding of JSON data outline (arrays of objects basically)  OK
 
 ## how to use
 
-- fork the repository and clone locally
-- cd into the project and run `npm install` to install dependencies
-- once installation is complete, run `npm run start` to get your local copy running in the browser.
+- fork the repository and clone locally  OK
+- cd into the project and run `npm install` to install dependencies  OK
+- once installation is complete, run `npm run start` to get your local copy running in the browser.  OK
 
 ## template instructions
 
