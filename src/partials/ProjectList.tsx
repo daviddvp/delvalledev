@@ -14,35 +14,32 @@ const ProjectList = () => (
       </>
     }
   >
-    <div className="flex flex-col gap-6">
+  <div className="flex flex-col gap-6">
       <Project
-        name="Conversor de monedas"
-        description="Este es un conversor de monedas que desarrolle para
-        practicar mis habilidades con Javascript"
-        link="https://github.com/daviddvp/daviddvp.github.io"
+        name="Añadir un nuevo volumen en Linux"
+        description="Estos scripts se utilizan para automatizar el proceso de creación, montaje y sincronización de un volumen en Linux."
+        link="https://github.com/daviddvp/New_volume_Linux"
         img={{
-          src: '/assets/images/project-converter.png',
-          alt: 'Project Converter',
+          src: '/assets/images/project-volume.png',
+          alt: 'Project new_volume',
         }}
         category={
           <>
             {/* <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags> */}
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>CSS</Tags>
+            <Tags color={ColorTags.YELLOW}>Scripting</Tags>
+            <Tags color={ColorTags.LIME}>Linux</Tags>
+            <Tags color={ColorTags.SKY}>Bash</Tags>
             {/* <Tags color={ColorTags.ROSE}>JavaScript</Tags> */}
           </>
         }
       />
       <Project
-        name="Calculadora"
-        description="Esta es una calculadora que desarrolle para practicar, de nuevo, mis habilidades con Javascript.
-        Tambien me ayudo a entender la forma de manejar las operaciones en programacion y practicar el diseño web al darle un estilo
-        parecido al de cierta compañia frutera"
-        link="https://github.com/daviddvp/NormalCalculator"
+        name="Reloj Digital"
+        description="Desarrollo de reloj digital web en JavaScript"
+        link="https://github.com/daviddvp/JS_DigitalClock"
         img={{
-          src: '/assets/images/project-calculator.png',
-          alt: 'Project Calculator',
+          src: '/assets/images/project-clock.png',
+          alt: 'Project Clock',
         }}
         category={
           <>

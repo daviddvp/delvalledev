@@ -15,17 +15,19 @@ const Hero = () => (
       }
       description={
         <>
-          Soy David, un desarrollador web principiante y{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            autodidacta.
-          </a>{' '}
-          He desarrollado esta página para practicar mis habilidades de{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            programación
-          </a>{' '}
-          , además de mostrar mis proyectos, currículum e inquietudes.
-        </>
-      }
+        Soy David, actualmente trabajo como 
+        <a className="text-cyan-400 hover:underline" href="/"> DevOps
+        </a> y soy desarrollador{' '}
+        <a className="text-cyan-400 hover:underline" href="/">
+          autodidacta.
+        </a>{' '}
+        He desarrollado esta página para practicar mis habilidades de{' '}
+        <a className="text-cyan-400 hover:underline" href="/">
+        programación
+        </a>;{' '}
+        además de mostrar mis proyectos, currículum e inquietudes.
+      </>
+    }
       avatar={
         <img
           className="h-80 w-64"

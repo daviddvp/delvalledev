@@ -1,6 +1,6 @@
 # DelValleDev Web
 
-🚀 Hi! I'm [Your Name], a programmer with experience in web and mobile development. I work with Python, JavaScript, React, and Node.js. Check out my projects and blog articles. Let's connect! ⚡️ Made with Astro, TypeScript, ESLint, Prettier, Tailwind CSS.
+🚀 Hi! I'm David, a programmer with experience in web and mobile development. I work with Python, JavaScript, React, and Node.js. Check out my projects and blog articles. Let's connect! ⚡️ Made with Astro, TypeScript, ESLint, Prettier, Tailwind CSS.
 
 ## Next features
 - Curriculum web
