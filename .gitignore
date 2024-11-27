@@ -1,3 +1,42 @@
-#Ignorar los archivos de node 
+# Node modules
 node_modules/
-node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de dependencias (si usas algún gestor como Yarn o pnpm)
+.pnp/
+.pnp.js
+
+# Entorno de producción
+dist/
+build/
+
+# Archivos de configuración de IDEs y editores
+.vscode/
+.idea/
+
+# Sistema operativo - Archivos del sistema de Mac
+.DS_Store
+
+# Archivos de configuración de IDEs
+*.suo
+*.user
+*.userosfile
+*.sln
+*.swp
+
+# Archivos de dependencias de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de log
+logs/
+*.log
+
+# Archivos generados por el compilador de JavaScript
+*.tsbuildinfo
+
