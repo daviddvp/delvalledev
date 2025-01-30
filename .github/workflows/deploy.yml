@@ -36,5 +36,5 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: './dist'  # El directorio de salida de Astro, cambia si es diferente
+          local-dir: './dist/'  # El directorio de salida de Astro
           server-dir: '/public_html'  # Directorio en Hostinger
