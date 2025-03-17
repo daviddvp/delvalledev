@@ -60,5 +60,5 @@ This README.md was linted with
 [markdownlint](https://github.com/igorshubovych/markdownlint-cli)
 
 ### License
-
+[![Deploy](https://github.com/daviddvp/delvalledev/actions/workflows/deploy.yml/badge.svg)](https://github.com/daviddvp/delvalledev/actions/workflows/deploy.yml)
 Licensed under the MIT License, Copyright © 2022
