@@ -55,9 +55,9 @@ Feel free to open an [issue](https://github.com/daviddvp/delvalledev/issues) if 
 
 ## License
 
-Licensed under the MIT License, Copyright © 2022
+Licensed under the MIT License, Copyright © 2026
 
 ### License
 [![Deploy](https://github.com/daviddvp/delvalledev/actions/workflows/deploy.yml/badge.svg)](https://github.com/daviddvp/delvalledev/actions/workflows/deploy.yml)
-Licensed under the MIT License, Copyright © 2022
+Licensed under the MIT License, Copyright © 2026
 
